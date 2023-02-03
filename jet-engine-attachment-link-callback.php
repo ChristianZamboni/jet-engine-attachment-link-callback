@@ -64,7 +64,7 @@ function jet_engine_get_attachment_file_link( $attachment_id, $display_name = 'f
 		$target = ' target="_blank"';
 	}
 
-	return sprintf( '<a href="%1$s"%3$s>%2$s</a>', $url, $name, $target );
+	return sprintf( '<a href="%1$s" target="_blank">%2$s</a>', $url, $name );
 
 }
 
